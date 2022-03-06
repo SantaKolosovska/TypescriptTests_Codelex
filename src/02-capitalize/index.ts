@@ -11,6 +11,25 @@
  * capitalize('look, it is working!') === 'Look, It Is Working!'
  */
 
-function capitalize(str: string) {}
+// split string into an array of words, map to a new array while capitalizing the first letter 
+// of each word and adding the rest of the word as a substring. Join the elements of the array to 
+// create a string.
+function capitalize(str: string): string {
+    return str.split(' ').map(word => word[0].toUpperCase() + word.substring(1)).join(' ')
+}
+
+// same approach in more steps
+function capitalize2(str: string): string {
+    let arrayOfWords = str.split(' ')
+    let newArrayOfWords: string[]
+    newArrayOfWords = []
+
+    for (let i = 0; i < arrayOfWords.length; i++) {
+        let word = arrayOfWords[i]
+        newArrayOfWords.push(word[0].toUpperCase() + word.substring(1))
+    }
+
+    return newArrayOfWords.join(' ')
+}
 
 export { capitalize };

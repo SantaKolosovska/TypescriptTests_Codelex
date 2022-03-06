@@ -12,6 +12,21 @@
  * longestWord("fun&!! time") === "time"
  */
 
-function longestWord(sen: string) {}
+// Remove special symbols and number from the string. Split the string into an array 
+// of words. Create a variable to store the longest word in. Loop through the array. 
+// When an element that is longer than the current longest is found, assign it's 
+// value to longest. 
+function longestWord(sen: string) {
+    const cleanInput = sen.replace(/[^A-Za-z0-9]/g, ' ')
+    const wordsArray = cleanInput.split(' ')
+    let longest = ""
+    for (var i = 0; i < wordsArray.length; i++ ) {
+        if (wordsArray[i].length > longest.length) {
+            longest = wordsArray[i]
+            console.log("longest is " + wordsArray[i])
+        }
+    }
+    return longest
+}
 
 export { longestWord };
