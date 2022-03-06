@@ -1,4 +1,8 @@
+Learning some Typescript in a 4 day introductory course offered by Codelex (https://www.codelex.io/).  
+&nbsp;
 
+
+## ------------------ Original README ------------------
 
 #   ---------- Original README ----------
 ## Easy Exercises
