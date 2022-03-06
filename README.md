@@ -1,4 +1,7 @@
-# Easy Exercises
+
+
+#   ---------- Original README ----------
+## Easy Exercises
 
 Probably most of the _Warm Up_ exercises are finished if you have managed to get this far.
 
