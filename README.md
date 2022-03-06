@@ -2,9 +2,8 @@ Learning some Typescript in a 4 day introductory course offered by Codelex (http
 &nbsp;
 
 
-## ------------------ Original README ------------------
+# ------------------ Original README ------------------
 
-#   ---------- Original README ----------
 ## Easy Exercises
 
 Probably most of the _Warm Up_ exercises are finished if you have managed to get this far.
